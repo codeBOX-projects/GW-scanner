@@ -1,3 +1,5 @@
 #!/bin/bash
 
-chmod +x f
+chmod +x install.sh
+pip -r install requirements.txt
+python gateway.py
